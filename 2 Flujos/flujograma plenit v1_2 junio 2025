@@ -1,0 +1,2368 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Bot Plenit v1.2\n* se piden mas datos al no socio\n",
+      "id": 1,
+      "attr": {
+        "position": [
+          -2243,
+          -245,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Saludo",
+          "id": "2.2cca.98b602d98-3c5d.a9db46686",
+          "ideas": {
+            "1": {
+              "title": "Pedir nombre y apellido\n",
+              "id": "3.2cca.98b602d98-3c5d.a9db46686",
+              "ideas": {
+                "1": {
+                  "title": "Pedir telefono\n",
+                  "id": "4.2cca.98b602d98-3c5d.a9db46686",
+                  "attr": {
+                    "parentConnector": {
+                      "arrow": "to"
+                    },
+                    "position": [
+                      35.599999999999994,
+                      78.8,
+                      1
+                    ]
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Pedir CI\n",
+                      "id": "5.2cca.98b602d98-3c5d.a9db46686",
+                      "attr": {
+                        "parentConnector": {
+                          "arrow": "to"
+                        },
+                        "position": [
+                          85.79998779296875,
+                          98.83437213897639,
+                          1
+                        ]
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "Soy socio\n",
+                          "id": "8.2cca.98b602d98-3c5d.a9db46686",
+                          "attr": {
+                            "parentConnector": {
+                              "arrow": "to"
+                            },
+                            "style": {
+                              "backgroundColor": "#00CCFF"
+                            },
+                            "position": [
+                              20.192709922790307,
+                              -574.5624904632574,
+                              1
+                            ],
+                            "collapsed": true
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "saludo",
+                              "id": "12.2cca.98b602d98-3c5d.a9db46686",
+                              "attr": {
+                                "parentConnector": {
+                                  "arrow": "to"
+                                },
+                                "position": [
+                                  40.69791984558083,
+                                  78.8801908493042,
+                                  1
+                                ]
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "Mi gestion\n",
+                                  "id": "13.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    },
+                                    "style": {
+                                      "backgroundColor": "#99CC00"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "intro",
+                                      "id": "24.2cca.98b602d98-3c5d.a9db46686",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Reintegros",
+                                          "id": "25.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "pedir factura\n",
+                                              "id": "32.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Asignar Asesor\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#FFCC00"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "33.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "Autorizaciones",
+                                          "id": "26.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "como solicitar autorizacion?\n",
+                                              "id": "34.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "pasos para solicitar\n",
+                                                  "id": "36.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "solicitar autorizacion\n",
+                                                      "id": "37.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "Autorizar la practica ahora\n",
+                                                          "id": "40.2cca.98b602d98-3c5d.a9db46686",
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "solicitar el pedido medico\n",
+                                                              "id": "43.2cca.98b602d98-3c5d.a9db46686",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              },
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "Asignar Asesor\n",
+                                                                  "attr": {
+                                                                    "style": {
+                                                                      "backgroundColor": "#FFCC00"
+                                                                    },
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    }
+                                                                  },
+                                                                  "id": "44.2cca.98b602d98-3c5d.a9db46686"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "2": {
+                                                          "title": "Finalizar conversacion\n",
+                                                          "id": "41.2cca.98b602d98-3c5d.a9db46686",
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "Fin chat\n",
+                                                              "attr": {
+                                                                "style": {
+                                                                  "backgroundColor": "#FF0000",
+                                                                  "text": {
+                                                                    "color": "#FFFFFF"
+                                                                  }
+                                                                },
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              },
+                                                              "id": "42.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "2": {
+                                                      "title": "finalizar conversación",
+                                                      "id": "38.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "Fin chat\n",
+                                                          "id": "39.2cca.98b602d98-3c5d.a9db46686",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#FF0000",
+                                                              "text": {
+                                                                "color": "#FFFFFF"
+                                                              }
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "2": {
+                                              "title": "no autorizaron mi practica\n",
+                                              "id": "35.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "solicitar practica que no fue autorizada\n",
+                                                  "id": "45.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Asignar Asesor\n",
+                                                      "attr": {
+                                                        "style": {
+                                                          "backgroundColor": "#FFCC00"
+                                                        },
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "id": "46.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "Copagos",
+                                          "id": "27.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Informa link con info de copagos\n",
+                                              "id": "47.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menú: Mi gestión",
+                                                  "id": "110.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    },
+                                                    "style": {
+                                                      "backgroundColor": "#99CC00"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "4": {
+                                          "title": "Medicamentos",
+                                          "id": "28.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Anticonceptivos",
+                                              "id": "111.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Informa Formulario ACO\n",
+                                                  "id": "115.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "vuelve al menú: Mi gestión",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        },
+                                                        "style": {
+                                                          "backgroundColor": "#99CC00"
+                                                        }
+                                                      },
+                                                      "id": "116.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "2": {
+                                              "title": "Crónicos",
+                                              "id": "112.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Informa formulario Crónicos\n",
+                                                  "id": "118.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "vuelve al menú: Mi gestión",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        },
+                                                        "style": {
+                                                          "backgroundColor": "#99CC00"
+                                                        }
+                                                      },
+                                                      "id": "119.2cca.98b602d98-3c5d.a9db46686",
+                                                      "ideas": {}
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "3": {
+                                              "title": "Discapacidad",
+                                              "id": "113.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Informa formulario Discapacidad\n",
+                                                  "id": "120.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "vuelve al menú: Mi gestión",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        },
+                                                        "style": {
+                                                          "backgroundColor": "#99CC00"
+                                                        }
+                                                      },
+                                                      "ideas": {},
+                                                      "id": "122.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "4": {
+                                              "title": "Farmacias",
+                                              "id": "114.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Info con link de las farmacias\n",
+                                                  "id": "123.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "vuelve al menú: Mi gestión",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        },
+                                                        "style": {
+                                                          "backgroundColor": "#99CC00"
+                                                        }
+                                                      },
+                                                      "ideas": {},
+                                                      "id": "124.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "5": {
+                                          "title": "Facturacion",
+                                          "id": "29.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "No se descontaron los aportes\n",
+                                              "id": "126.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Asignar Asesor\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#FFCC00"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "129.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            },
+                                            "2": {
+                                              "title": "no llegó la factura\n",
+                                              "id": "127.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "solicitar email.\n",
+                                                  "id": "130.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Asignar Asesor\n",
+                                                      "attr": {
+                                                        "style": {
+                                                          "backgroundColor": "#FFCC00"
+                                                        },
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "id": "131.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "3": {
+                                              "title": "consulta de deuda\n",
+                                              "id": "128.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "solicitar email.\n",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Asignar Asesor\n",
+                                                      "attr": {
+                                                        "style": {
+                                                          "backgroundColor": "#FFCC00"
+                                                        },
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "id": "133.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  },
+                                                  "id": "132.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "6": {
+                                          "title": "Otros tramites\n",
+                                          "id": "30.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "como realizo la baja?\n",
+                                              "id": "134.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "info\n",
+                                                  "id": "139.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "solicitar baja\n",
+                                                      "id": "140.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "Asignar Asesor\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#FFCC00"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "143.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      }
+                                                    },
+                                                    "2": {
+                                                      "title": "volver al menu\n",
+                                                      "id": "141.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "vuelve al menú: Mi gestión",
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            },
+                                                            "style": {
+                                                              "backgroundColor": "#99CC00"
+                                                            }
+                                                          },
+                                                          "ideas": {},
+                                                          "id": "142.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "2": {
+                                              "title": "cambio de trabajo\n",
+                                              "id": "135.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "solicita alta o recibo de sueldo\n",
+                                                  "id": "144.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Asignar Asesor\n",
+                                                      "attr": {
+                                                        "style": {
+                                                          "backgroundColor": "#FFCC00"
+                                                        },
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "id": "145.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "3": {
+                                              "title": "cambio de plan\n",
+                                              "id": "136.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "muestra link con planes disponibles\n",
+                                                  "id": "146.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "solicita cambiar plan\n",
+                                                      "id": "147.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "Asignar Asesor\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#FFCC00"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "150.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      }
+                                                    },
+                                                    "2": {
+                                                      "title": "vuelve al menú: Mi gestión",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        },
+                                                        "style": {
+                                                          "backgroundColor": "#99CC00"
+                                                        }
+                                                      },
+                                                      "ideas": {},
+                                                      "id": "149.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "4": {
+                                              "title": "como agregar adherente\n",
+                                              "id": "137.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "info",
+                                                  "id": "151.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "menores de 1 año\n",
+                                                      "id": "152.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "info",
+                                                          "id": "158.2cca.98b602d98-3c5d.a9db46686",
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "solicitar",
+                                                              "id": "159.2cca.98b602d98-3c5d.a9db46686",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              },
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "solicitar dni\n",
+                                                                  "id": "162.2cca.98b602d98-3c5d.a9db46686",
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "solicitar registro vacunas\n",
+                                                                      "id": "163.2cca.98b602d98-3c5d.a9db46686",
+                                                                      "ideas": {
+                                                                        "1": {
+                                                                          "title": "solicitar apto pediatrico\n",
+                                                                          "id": "164.2cca.98b602d98-3c5d.a9db46686",
+                                                                          "ideas": {
+                                                                            "1": {
+                                                                              "title": "solicitar screening neonatal\n",
+                                                                              "id": "165.2cca.98b602d98-3c5d.a9db46686",
+                                                                              "ideas": {
+                                                                                "1": {
+                                                                                  "title": "Asignar Asesor\n",
+                                                                                  "attr": {
+                                                                                    "style": {
+                                                                                      "backgroundColor": "#FFCC00"
+                                                                                    },
+                                                                                    "parentConnector": {
+                                                                                      "arrow": "to"
+                                                                                    }
+                                                                                  },
+                                                                                  "id": "166.2cca.98b602d98-3c5d.a9db46686"
+                                                                                }
+                                                                              },
+                                                                              "attr": {
+                                                                                "parentConnector": {
+                                                                                  "arrow": "to"
+                                                                                },
+                                                                                "collapsed": true
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "attr": {
+                                                                            "parentConnector": {
+                                                                              "arrow": "to"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "attr": {
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "2": {
+                                                              "title": "vuelve al menú: Mi gestión",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                },
+                                                                "style": {
+                                                                  "backgroundColor": "#99CC00"
+                                                                }
+                                                              },
+                                                              "ideas": {},
+                                                              "id": "161.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          },
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "2": {
+                                                      "title": "menores de 2 años\n",
+                                                      "id": "153.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "info",
+                                                          "id": "167.2cca.98b602d98-3c5d.a9db46686",
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "solicitar",
+                                                              "id": "168.2cca.98b602d98-3c5d.a9db46686",
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "solicitar dni\n",
+                                                                  "id": "170.2cca.98b602d98-3c5d.a9db46686",
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "solicitar registro vacunas\n",
+                                                                      "id": "171.2cca.98b602d98-3c5d.a9db46686",
+                                                                      "ideas": {
+                                                                        "1": {
+                                                                          "title": "solicitar apto pediatrico\n",
+                                                                          "id": "172.2cca.98b602d98-3c5d.a9db46686",
+                                                                          "attr": {
+                                                                            "parentConnector": {
+                                                                              "arrow": "to"
+                                                                            }
+                                                                          },
+                                                                          "ideas": {
+                                                                            "1": {
+                                                                              "title": "Asignar Asesor\n",
+                                                                              "attr": {
+                                                                                "style": {
+                                                                                  "backgroundColor": "#FFCC00"
+                                                                                },
+                                                                                "parentConnector": {
+                                                                                  "arrow": "to"
+                                                                                }
+                                                                              },
+                                                                              "id": "173.2cca.98b602d98-3c5d.a9db46686"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "attr": {
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              }
+                                                            },
+                                                            "2": {
+                                                              "title": "vuelve al menú: Mi gestión",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                },
+                                                                "style": {
+                                                                  "backgroundColor": "#99CC00"
+                                                                }
+                                                              },
+                                                              "ideas": {},
+                                                              "id": "169.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          },
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "3": {
+                                                      "title": "menores de 6 años\n",
+                                                      "id": "154.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "info",
+                                                          "id": "174.2cca.98b602d98-3c5d.a9db46686",
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "si, solicitar\n",
+                                                              "id": "175.2cca.98b602d98-3c5d.a9db46686",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              },
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "solicitar dni\n",
+                                                                  "id": "177.2cca.98b602d98-3c5d.a9db46686",
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "solicitar vacunas\n",
+                                                                      "id": "178.2cca.98b602d98-3c5d.a9db46686",
+                                                                      "ideas": {
+                                                                        "1": {
+                                                                          "title": "Asignar Asesor\n",
+                                                                          "attr": {
+                                                                            "style": {
+                                                                              "backgroundColor": "#FFCC00"
+                                                                            },
+                                                                            "parentConnector": {
+                                                                              "arrow": "to"
+                                                                            }
+                                                                          },
+                                                                          "id": "179.2cca.98b602d98-3c5d.a9db46686"
+                                                                        }
+                                                                      },
+                                                                      "attr": {
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "2": {
+                                                              "title": "vuelve al menú: Mi gestión",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                },
+                                                                "style": {
+                                                                  "backgroundColor": "#99CC00"
+                                                                }
+                                                              },
+                                                              "ideas": {},
+                                                              "id": "176.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          },
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "4": {
+                                                      "title": "hijos mayores entre 18-25 años\n",
+                                                      "id": "155.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "info",
+                                                          "id": "180.2cca.98b602d98-3c5d.a9db46686",
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "si, solicitar\n",
+                                                              "id": "181.2cca.98b602d98-3c5d.a9db46686",
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "solicitar dni\n",
+                                                                  "id": "183.2cca.98b602d98-3c5d.a9db46686",
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "solicitar certificado de alumno\n",
+                                                                      "id": "184.2cca.98b602d98-3c5d.a9db46686",
+                                                                      "ideas": {
+                                                                        "1": {
+                                                                          "title": "Asignar Asesor\n",
+                                                                          "attr": {
+                                                                            "style": {
+                                                                              "backgroundColor": "#FFCC00"
+                                                                            },
+                                                                            "parentConnector": {
+                                                                              "arrow": "to"
+                                                                            }
+                                                                          },
+                                                                          "id": "185.2cca.98b602d98-3c5d.a9db46686"
+                                                                        }
+                                                                      },
+                                                                      "attr": {
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              }
+                                                            },
+                                                            "2": {
+                                                              "title": "vuelve al menú: Mi gestión",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                },
+                                                                "style": {
+                                                                  "backgroundColor": "#99CC00"
+                                                                }
+                                                              },
+                                                              "ideas": {},
+                                                              "id": "182.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          },
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "5": {
+                                                      "title": "conyuge o concubino\n",
+                                                      "id": "156.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "info",
+                                                          "id": "186.2cca.98b602d98-3c5d.a9db46686",
+                                                          "ideas": {
+                                                            "2": {
+                                                              "title": "si, solicitar\n",
+                                                              "id": "188.2cca.98b602d98-3c5d.a9db46686",
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "solicitar dni\n",
+                                                                  "id": "189.2cca.98b602d98-3c5d.a9db46686",
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    }
+                                                                  },
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "solicitar certificado matrimonio\n",
+                                                                      "id": "190.2cca.98b602d98-3c5d.a9db46686",
+                                                                      "attr": {
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      },
+                                                                      "ideas": {
+                                                                        "1": {
+                                                                          "title": "Asignar Asesor\n",
+                                                                          "attr": {
+                                                                            "style": {
+                                                                              "backgroundColor": "#FFCC00"
+                                                                            },
+                                                                            "parentConnector": {
+                                                                              "arrow": "to"
+                                                                            }
+                                                                          },
+                                                                          "id": "191.2cca.98b602d98-3c5d.a9db46686"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              }
+                                                            },
+                                                            "12": {
+                                                              "title": "vuelve al menú: Mi gestión",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                },
+                                                                "style": {
+                                                                  "backgroundColor": "#99CC00"
+                                                                }
+                                                              },
+                                                              "ideas": {},
+                                                              "id": "187.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "5": {
+                                              "title": "Urgencias",
+                                              "id": "138.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "info",
+                                                  "id": "192.2cca.98b602d98-3c5d.a9db46686",
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Plan CGYL\n",
+                                                      "id": "193.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "se da info del plan\n",
+                                                          "id": "195.2cca.98b602d98-3c5d.a9db46686",
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "se pergunta si desea cambiar de plan\n",
+                                                              "id": "196.2cca.98b602d98-3c5d.a9db46686",
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "si, solicitar\n",
+                                                                  "id": "197.2cca.98b602d98-3c5d.a9db46686",
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "Asignar Asesor\n",
+                                                                      "attr": {
+                                                                        "style": {
+                                                                          "backgroundColor": "#FFCC00"
+                                                                        },
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      },
+                                                                      "id": "200.2cca.98b602d98-3c5d.a9db46686"
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "2": {
+                                                                  "title": "vuelve al menú: Mi gestión",
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    },
+                                                                    "style": {
+                                                                      "backgroundColor": "#99CC00"
+                                                                    }
+                                                                  },
+                                                                  "ideas": {},
+                                                                  "id": "199.2cca.98b602d98-3c5d.a9db46686"
+                                                                }
+                                                              },
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "2": {
+                                                      "title": "Plan URG Urgencias\n",
+                                                      "id": "194.2cca.98b602d98-3c5d.a9db46686",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "se da info del plan\n",
+                                                          "id": "201.2cca.98b602d98-3c5d.a9db46686",
+                                                          "attr": {
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "ideas": {
+                                                            "1": {
+                                                              "title": "se pergunta si desea cambiar de plan\n",
+                                                              "attr": {
+                                                                "parentConnector": {
+                                                                  "arrow": "to"
+                                                                }
+                                                              },
+                                                              "ideas": {
+                                                                "1": {
+                                                                  "title": "si, solicitar\n",
+                                                                  "ideas": {
+                                                                    "1": {
+                                                                      "title": "Asignar Asesor\n",
+                                                                      "attr": {
+                                                                        "style": {
+                                                                          "backgroundColor": "#FFCC00"
+                                                                        },
+                                                                        "parentConnector": {
+                                                                          "arrow": "to"
+                                                                        }
+                                                                      },
+                                                                      "id": "204.2cca.98b602d98-3c5d.a9db46686"
+                                                                    }
+                                                                  },
+                                                                  "id": "203.2cca.98b602d98-3c5d.a9db46686"
+                                                                },
+                                                                "2": {
+                                                                  "title": "vuelve al menú: Mi gestión",
+                                                                  "attr": {
+                                                                    "parentConnector": {
+                                                                      "arrow": "to"
+                                                                    },
+                                                                    "style": {
+                                                                      "backgroundColor": "#99CC00"
+                                                                    }
+                                                                  },
+                                                                  "ideas": {},
+                                                                  "id": "205.2cca.98b602d98-3c5d.a9db46686"
+                                                                }
+                                                              },
+                                                              "id": "202.2cca.98b602d98-3c5d.a9db46686"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "7": {
+                                          "title": "Volver al menu\n",
+                                          "id": "31.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "vuelve al menu: soy socio\n",
+                                              "id": "125.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "style": {
+                                                  "backgroundColor": "#00CCFF"
+                                                },
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "parentConnector": {
+                                          "arrow": "to"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "2": {
+                                  "title": "Mi farmacia\n",
+                                  "id": "14.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "info",
+                                      "id": "206.2cca.98b602d98-3c5d.a9db46686",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "cupon",
+                                          "id": "207.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "se info para consultar cupon\n",
+                                              "id": "210.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "211.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "beneficios",
+                                          "id": "208.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "se da info de las farmacias\n",
+                                              "id": "212.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "213.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "ir al ecommerce\n",
+                                          "id": "209.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "se da la info del ecommerce\n",
+                                              "id": "214.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "215.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "parentConnector": {
+                                          "arrow": "to"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "3": {
+                                  "title": "Mi Credencial\n",
+                                  "id": "15.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "info",
+                                      "id": "216.2cca.98b602d98-3c5d.a9db46686",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "credencial provisoria\n",
+                                          "id": "217.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Asignar Asesor\n",
+                                              "attr": {
+                                                "style": {
+                                                  "backgroundColor": "#FFCC00"
+                                                },
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "id": "219.2cca.98b602d98-3c5d.a9db46686"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "via app\n",
+                                          "id": "218.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "info del video\n",
+                                              "id": "220.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "221.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "parentConnector": {
+                                          "arrow": "to"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "4": {
+                                  "title": "Cartilla medica\n",
+                                  "id": "16.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "info",
+                                      "id": "222.2cca.98b602d98-3c5d.a9db46686",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "cartilla medica\n",
+                                          "id": "223.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra link de la cartilla\n",
+                                              "id": "227.2cca.98b602d98-3c5d.a9db46686",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "228.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              },
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "guardia oftalmologica\n",
+                                          "id": "224.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra info teléfonos de guardia oftalmologica\n",
+                                              "id": "229.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "230.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "guardia odontologica\n",
+                                          "id": "225.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra info de telefonos de guardia odontologicas\n",
+                                              "id": "231.2cca.98b602d98-3c5d.a9db46686",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "232.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "4": {
+                                          "title": "psicologia",
+                                          "id": "226.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra info de teléfonos de guardia psicología",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "234.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              },
+                                              "id": "233.2cca.98b602d98-3c5d.a9db46686"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "parentConnector": {
+                                          "arrow": "to"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "5": {
+                                  "title": "Ayuda",
+                                  "id": "17.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "info",
+                                      "id": "235.2cca.98b602d98-3c5d.a9db46686",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "preguntas frecuentes\n",
+                                          "id": "236.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra link de pqr\n",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "241.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              },
+                                              "id": "240.2cca.98b602d98-3c5d.a9db46686"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "teléfonos útiles",
+                                          "id": "237.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra listado de teléfonos útiles",
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "vuelve al menu: soy socio\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#00CCFF"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "243.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              },
+                                              "id": "242.2cca.98b602d98-3c5d.a9db46686"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "app plenit\n",
+                                          "id": "238.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "info",
+                                              "id": "244.2cca.98b602d98-3c5d.a9db46686",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "como instalar app\n",
+                                                  "id": "245.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "info del video\n",
+                                                      "id": "248.2cca.98b602d98-3c5d.a9db46686",
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "vuelve al menu: soy socio\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#00CCFF"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "249.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      },
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "2": {
+                                                  "title": "como crear usuario\n",
+                                                  "id": "246.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "info del video\n",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "vuelve al menu: soy socio\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#00CCFF"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "251.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      },
+                                                      "id": "250.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                },
+                                                "3": {
+                                                  "title": "decargar guia de uso\n",
+                                                  "id": "247.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "info del video\n",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "vuelve al menu: soy socio\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#00CCFF"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "253.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      },
+                                                      "id": "252.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "4": {
+                                          "title": "sitio web\n",
+                                          "id": "239.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "info",
+                                              "id": "254.2cca.98b602d98-3c5d.a9db46686",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "como acceder\n",
+                                                  "id": "255.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "info del video\n",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "vuelve al menu: soy socio\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#00CCFF"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "258.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      },
+                                                      "id": "257.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                },
+                                                "2": {
+                                                  "title": "como crear mi usuario\n",
+                                                  "id": "256.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "info del video\n",
+                                                      "attr": {
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": "vuelve al menu: soy socio\n",
+                                                          "attr": {
+                                                            "style": {
+                                                              "backgroundColor": "#00CCFF"
+                                                            },
+                                                            "parentConnector": {
+                                                              "arrow": "to"
+                                                            }
+                                                          },
+                                                          "id": "260.2cca.98b602d98-3c5d.a9db46686"
+                                                        }
+                                                      },
+                                                      "id": "259.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "parentConnector": {
+                                          "arrow": "to"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "6": {
+                                  "title": "Iniciar de nuevo",
+                                  "id": "261.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "style": {
+                                      "backgroundColor": "#FFFF00"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "No soy socio\n",
+                          "id": "9.2cca.98b602d98-3c5d.a9db46686",
+                          "attr": {
+                            "parentConnector": {
+                              "arrow": "to"
+                            },
+                            "style": {
+                              "backgroundColor": "#33CCCC"
+                            }
+                          },
+                          "ideas": {
+                            "2": {
+                              "title": "pedir: Fecha de Nacimiento",
+                              "id": "275.5f80.5fd31c096-c8b8.11487eda6",
+                              "ideas": {
+                                "1": {
+                                  "title": "pedir: Email",
+                                  "id": "276.5f80.5fd31c096-c8b8.11487eda6",
+                                  "attr": {
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "saludo",
+                                      "id": "18.2cca.98b602d98-3c5d.a9db46686",
+                                      "attr": {
+                                        "parentConnector": {
+                                          "arrow": "to"
+                                        }
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Planes",
+                                          "id": "19.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "muestra link de los planes\n",
+                                              "id": "265.2cca.98b602d98-3c5d.a9db46686",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "comunicarte con un agente?\n",
+                                                  "id": "266.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Asignar Asesor\n",
+                                                      "attr": {
+                                                        "style": {
+                                                          "backgroundColor": "#FFCC00"
+                                                        },
+                                                        "parentConnector": {
+                                                          "arrow": "to"
+                                                        }
+                                                      },
+                                                      "id": "268.2cca.98b602d98-3c5d.a9db46686"
+                                                    }
+                                                  }
+                                                },
+                                                "2": {
+                                                  "title": "volver al menu: no soy socio\n",
+                                                  "id": "267.2cca.98b602d98-3c5d.a9db46686",
+                                                  "attr": {
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    },
+                                                    "style": {
+                                                      "backgroundColor": "#33CCCC"
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "attr": {
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "11": {
+                                          "title": "Como me afilio?\n",
+                                          "id": "20.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "info",
+                                              "id": "269.2cca.98b602d98-3c5d.a9db46686",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "Asignar Asesor\n",
+                                                  "attr": {
+                                                    "style": {
+                                                      "backgroundColor": "#FFCC00"
+                                                    },
+                                                    "parentConnector": {
+                                                      "arrow": "to"
+                                                    }
+                                                  },
+                                                  "id": "270.2cca.98b602d98-3c5d.a9db46686"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "21": {
+                                          "title": "Salir",
+                                          "id": "21.2cca.98b602d98-3c5d.a9db46686",
+                                          "attr": {
+                                            "parentConnector": {
+                                              "arrow": "to"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Fin chat\n",
+                                              "attr": {
+                                                "style": {
+                                                  "backgroundColor": "#FF0000",
+                                                  "text": {
+                                                    "color": "#FFFFFF"
+                                                  }
+                                                },
+                                                "parentConnector": {
+                                                  "arrow": "to"
+                                                }
+                                              },
+                                              "id": "271.2cca.98b602d98-3c5d.a9db46686"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "parentConnector": {
+                                  "arrow": "to"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "Soy prestador\n",
+                          "id": "10.2cca.98b602d98-3c5d.a9db46686",
+                          "attr": {
+                            "parentConnector": {
+                              "arrow": "to"
+                            },
+                            "style": {
+                              "backgroundColor": "#99CC00"
+                            },
+                            "collapsed": true
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "saludo",
+                              "id": "22.2cca.98b602d98-3c5d.a9db46686",
+                              "attr": {
+                                "parentConnector": {
+                                  "arrow": "to"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "Asignar Asesor\n",
+                                  "id": "23.2cca.98b602d98-3c5d.a9db46686",
+                                  "attr": {
+                                    "style": {
+                                      "backgroundColor": "#FFCC00"
+                                    },
+                                    "parentConnector": {
+                                      "arrow": "to"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "parentConnector": {
+                  "arrow": "to"
+                },
+                "position": [
+                  40.80000000000001,
+                  87.80000000000001,
+                  1
+                ],
+                "style": {
+                  "cornerRadius": 13,
+                  "width": 124
+                }
+              }
+            }
+          },
+          "attr": {
+            "parentConnector": {
+              "arrow": "to"
+            },
+            "position": [
+              29.80000000000001,
+              67,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "iniciar de nuevo\n",
+      "id": "264.2cca.98b602d98-3c5d.a9db46686",
+      "attr": {
+        "position": [
+          -1836,
+          -180,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FFFF00"
+        }
+      }
+    },
+    "3": {
+      "title": "Encuesta de calidad",
+      "id": "272.2cca.98b602d98-3c5d.a9db46686",
+      "attr": {
+        "position": [
+          -2007,
+          123,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00FF00"
+        },
+        "note": {
+          "index": 199,
+          "text": "esta habilitada en todos los flujos"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Al asesor\n",
+          "id": "273.2cca.98b602d98-3c5d.a9db46686",
+          "attr": {
+            "parentConnector": {
+              "arrow": "to"
+            }
+          }
+        },
+        "11": {
+          "title": "Al Bot\n",
+          "id": "274.2cca.98b602d98-3c5d.a9db46686",
+          "attr": {
+            "parentConnector": {
+              "arrow": "to"
+            }
+          }
+        }
+      }
+    }
+  },
+  "attr": {
+    "theme": "default"
+  },
+  "title": "",
+  "links": [
+    {
+      "ideaIdFrom": "264.2cca.98b602d98-3c5d.a9db46686",
+      "ideaIdTo": "3.2cca.98b602d98-3c5d.a9db46686",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    }
+  ]
+}
